@@ -140,8 +140,8 @@ body {
 
 /* Home Page */
 #hero{
-    background-image: url("https://i.pinimg.com/originals/68/9e/38/689e38f6a40115204ecfb506a13c8f7c.jpg");
-    height: 90vh;
+    background-image: url("space1.png");
+    height: 70vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
