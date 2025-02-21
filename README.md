@@ -1,7 +1,7 @@
 # spaceMerch
 
-This project diplays a space merch website
+This project diplays a space merch website.
 <br>
-the landing page is shown in the website
+The landing page for the website is deployed here.
 <br>
-hope you have fun!!
+Hope you have fun!!
