@@ -17,17 +17,17 @@ h1{
 h2{
     font-size: 46px;
     line-height: 64px;
-    color: #222;
+    color: #fff;
 }
 
 h3{
     font-size: 46px;
-    color: #222;
+    color: #fff;
 }
 
 h4{
     font-size: 20px;
-    color: #222;
+    color: #fff;
 } 
 
 h3{
@@ -140,7 +140,7 @@ body {
 
 /* Home Page */
 #hero{
-    background-image: url("");
+    background-image: url("https://mir-s3-cdn-cf.behance.net/projects/original/c211e3120178957.Y3JvcCwxNTg4LDEyNDIsMzEsMTM3.jpg");
     height: 70vh;
     width: 100%;
     background-size: cover;
