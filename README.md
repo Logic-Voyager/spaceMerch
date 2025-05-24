@@ -4,14 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Enigma – Hackathon Project</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 2em; background-color: #0a0a23; color: #f1f1f1; }
-    h1, h2 { color: #7dd3fc; }
-    a { color: #38bdf8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    code { background: #222; padding: 2px 6px; border-radius: 4px; }
-    ul { margin-left: 20px; }
-  </style>
+
 </head>
 <body>
 
@@ -56,7 +49,7 @@
   <h2>📸 Demo & Links</h2>
   <ul>
     <li>🌐 <strong>Live Site:</strong> <a href="https://enigma.netlify.app" target="_blank">https://enigma.netlify.app</a></li>
-    <li>💾 <strong>Source Code:</strong> <a href="https://github.com/yourusername/enigma" target="_blank">https://github.com/Logic-Voyager/enigma</a></li>
+    <li>💾 <strong>Source Code:</strong> <a href="https://github.com/yourusername/enigma" target="_blank">https://github.com/enigma</a></li>
   </ul>
 
   <h2>🔮 What's Next</h2>
@@ -69,7 +62,6 @@
 
   <h2>🙋‍♂️ About Me</h2>
   <p><strong>[Your Name]</strong><br/>
-  Physics undergraduate exploring tech through space, creativity, and code.<br/>
   🔗 <a href="[Your LinkedIn or Portfolio URL]" target="_blank">LinkedIn / Portfolio</a></p>
 
   <h2>🏆 Submitted To</h2>
