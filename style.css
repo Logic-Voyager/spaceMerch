@@ -518,10 +518,13 @@ footer .col{
     align-items: flex-start;
     margin-bottom: 20px;
 }
-
-footer .logo{
-    margin-bottom: 30px;
+footer .logo {
+    width: 100px;       /* or any size you want */
+    height: auto;       /* maintains the image aspect ratio */
+    border-radius: 50%; /* optional: makes it round */
+    object-fit: cover;  /* ensures proper fitting if you crop */
 }
+
 
 footer h4{
     font-size: 14px;
