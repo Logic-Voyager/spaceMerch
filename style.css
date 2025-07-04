@@ -93,6 +93,15 @@ body {
     left: 0;
 }
 
+.logo img {
+    width: 60px;
+    height: auto;
+    display: inline-block;
+    border-radius: 50%; /* Makes it perfectly circular if width = height */
+    object-fit: cover;
+}
+
+
 #navbar{
     display: flex;
     align-items: center;
