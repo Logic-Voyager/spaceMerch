@@ -1426,11 +1426,19 @@ footer .copyright {
 
 .contact-form {
     display: grid;
-    gap: 8px;
+    gap: 18px;
+    align-content: start;
+    padding: 30px;
+    border: 1px solid #dfe8e5;
+    background: #fff;
+}
+
+.contact-field {
+    display: grid;
+    gap: 7px;
 }
 
 .contact-form label {
-    margin-top: 8px;
     color: #465b52;
     font-size: 13px;
     font-weight: 700;
@@ -1438,8 +1446,10 @@ footer .copyright {
 
 .contact-form input,
 .contact-form textarea {
+    display: block;
     width: 100%;
-    padding: 13px 14px;
+    min-height: 46px;
+    padding: 12px 14px;
     border: 1px solid #cce7d0;
     border-radius: 4px;
     font: inherit;
@@ -1454,7 +1464,7 @@ footer .copyright {
 
 .contact-form button {
     justify-self: start;
-    margin-top: 12px;
+    margin-top: 2px;
 }
 
 .about-layout {
@@ -2044,6 +2054,430 @@ footer .copyright {
     font-size: 21px;
 }
 
+
+@media (max-width: 477px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 1.15;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 1.55;
+    }
+
+    .section-p1 {
+        padding: 28px 16px;
+    }
+
+    #header {
+        min-height: 64px;
+        padding: 8px 16px;
+    }
+
+    .logo img {
+        width: 48px;
+    }
+
+    #mobile i {
+        padding-left: 14px;
+        font-size: 18px;
+    }
+
+    #hero {
+        min-height: 520px;
+        height: auto;
+        padding: 52px 20px;
+        background-position: 62% center;
+    }
+
+    #hero h2 {
+        max-width: 270px;
+        font-size: 28px;
+    }
+
+    #hero h1 {
+        font-size: 34px;
+    }
+
+    #feature {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    #feature .fe-box {
+        width: auto;
+        margin: 0;
+        padding: 14px 10px;
+    }
+
+    #feature .fe-box img {
+        margin-bottom: 6px;
+    }
+
+    #feature .fe-box h6 {
+        font-size: 11px;
+    }
+
+    #product1 h1 {
+        font-size: 28px;
+    }
+
+    #product1 .pro-container {
+        gap: 12px;
+        padding-top: 10px;
+    }
+
+    #product1 .pro {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 8px 10px;
+        border-radius: 12px;
+    }
+
+    #product1 .pro img {
+        max-height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    #product1 .pro .des {
+        padding: 8px 0 4px;
+    }
+
+    #product1 .pro .des h5 {
+        font-size: 13px;
+    }
+
+    #product1 .pro .cart {
+        right: 10px;
+        bottom: 12px;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    #banner {
+        min-height: 260px;
+        height: auto;
+        margin: 24px 0;
+        padding: 34px 18px;
+    }
+
+    #banner h2 {
+        max-width: 320px;
+        font-size: 25px;
+    }
+
+    #sm-banner,
+    #ti-banner {
+        gap: 12px;
+    }
+
+    #sm-banner .banner-box,
+    #sm-banner .banner-box2 {
+        height: 240px;
+        padding: 24px;
+    }
+
+    #ti-banner {
+        padding: 0 16px;
+    }
+
+    #ti-banner .banner-box {
+        height: 160px;
+        padding: 22px;
+    }
+
+    #ti-banner .banner-box h2 {
+        font-size: 19px;
+    }
+
+    #newsletter {
+        gap: 16px;
+        padding: 28px 16px;
+    }
+
+    #newsletter .newstext,
+    #newsletter .form {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #newsletter h4 {
+        font-size: 19px;
+    }
+
+    #newsletter .form input {
+        min-width: 0;
+        padding: 0 12px;
+    }
+
+    .page-heading {
+        padding: 42px 20px 32px;
+    }
+
+    .page-heading h1 {
+        font-size: 30px;
+    }
+
+    .heading-meta {
+        margin-top: 16px;
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+    .cart-page,
+    .product-detail,
+    .about-story-layout,
+    .payment-layout,
+    .contact-layout {
+        gap: 20px;
+    }
+
+    .cart-item {
+        grid-template-columns: 64px 1fr;
+        padding: 12px 0;
+    }
+
+    .cart-item img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .cart-item h3 {
+        font-size: 15px;
+    }
+
+    .cart-summary,
+    .info-card,
+    .about-story-layout .about-story,
+    .form-section,
+    .payment-summary {
+        padding: 20px;
+    }
+
+    .about-story-layout .about-story h2,
+    .product-copy h2 {
+        font-size: 30px;
+    }
+
+    .about-story-image,
+    .about-story-image img,
+    .product-visual,
+    .product-visual img {
+        min-height: 300px;
+        height: 300px;
+    }
+
+    .story-steps,
+    .mission-coordinates {
+        gap: 10px;
+        padding-top: 12px;
+        padding-bottom: 36px;
+    }
+
+    .story-step,
+    .coordinate {
+        padding: 18px;
+    }
+
+    .journal-feature > div {
+        padding: 22px 20px;
+    }
+
+    .journal-feature h2,
+    .journal-card h2 {
+        font-size: 19px;
+    }
+
+    .journal-card img {
+        height: 145px;
+        min-height: 145px;
+    }
+
+    .journal-cta {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .journal-cta h2 {
+        margin-right: 0;
+        font-size: 21px;
+    }
+
+    footer .col {
+        width: 100%;
+    }
+}
+
+@media (max-width: 477px) {
+    #hero {
+        min-height: 580px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .page-heading,
+    .page-heading.about-heading,
+    .page-heading.contact-heading,
+    .page-heading.cart-heading,
+    .page-heading.product-heading {
+        min-height: 230px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .journal-intro {
+        gap: 12px;
+        padding-top: 22px;
+        padding-bottom: 14px;
+    }
+
+    .journal-intro h2 {
+        max-width: 300px;
+        margin-top: 8px;
+        font-size: 20px;
+    }
+
+    .journal-intro > p {
+        max-width: 300px;
+        font-size: 12px;
+    }
+
+    .journal-filters {
+        gap: 6px;
+        padding-top: 10px;
+    }
+
+    .journal-filters a {
+        padding: 6px 8px;
+        font-size: 10px;
+    }
+
+    .journal-grid {
+        gap: 12px;
+        padding-top: 16px;
+    }
+
+    .journal-feature {
+        min-height: 0;
+    }
+
+    .journal-feature img {
+        min-height: 150px;
+        height: 150px;
+    }
+
+    .journal-feature > div {
+        padding: 18px;
+    }
+
+    .journal-feature p,
+    .journal-card p {
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 1.45;
+    }
+
+    .journal-card img {
+        height: 125px;
+        min-height: 125px;
+    }
+
+    .journal-card span {
+        margin: 12px 16px 0;
+        font-size: 9px;
+    }
+
+    .journal-card h2,
+    .journal-card p {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .journal-card h2 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 17px;
+    }
+
+    .journal-card small {
+        margin: 0 16px 14px;
+        font-size: 9px;
+    }
+
+    .cart-item {
+        grid-template-columns: 56px 1fr;
+        gap: 10px;
+    }
+
+    .cart-item img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .cart-item .quantity-control {
+        gap: 10px;
+    }
+
+    .quantity-control button {
+        width: 32px;
+        height: 32px;
+    }
+
+    .cart-summary {
+        gap: 12px;
+        padding: 18px;
+    }
+
+    .cart-summary strong {
+        font-size: 26px;
+    }
+
+    .payment-layout {
+        padding-top: 20px;
+    }
+
+    .form-section {
+        gap: 8px;
+        padding: 18px;
+    }
+
+    .form-section h2 {
+        margin: 8px 0;
+        font-size: 23px;
+    }
+
+    .form-section input,
+    .contact-form input,
+    .contact-form textarea {
+        padding: 11px 12px;
+    }
+
+    .payment-summary {
+        padding: 18px;
+    }
+
+    #cart-toast {
+        left: 12px;
+        right: 12px;
+        justify-content: space-between;
+        padding: 12px 14px;
+        font-size: 12px;
+    }
+}
 .journal-feature p,
 .journal-card p,
 .journal-intro > p {
@@ -2062,4 +2496,262 @@ footer .copyright {
 .journal-filters a {
     padding: 7px 10px;
     font-size: 11px;
+}
+
+.journal-grid {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 14px;
+}
+
+.journal-feature h2,
+.journal-card h2 {
+    font-size: 20px;
+}
+
+.journal-feature p,
+.journal-card p,
+.journal-intro > p {
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.journal-feature > div {
+    padding: 24px;
+}
+
+.journal-card span,
+.journal-card small,
+.journal-intro span,
+.journal-cta > span {
+    font-size: 9px;
+}
+
+@media (max-width: 477px) {
+    .journal-grid {
+        gap: 10px;
+    }
+
+    .journal-feature img {
+        height: 125px;
+        min-height: 125px;
+    }
+
+    .journal-feature > div {
+        padding: 16px;
+    }
+
+    .journal-feature h2,
+    .journal-card h2 {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .journal-feature p,
+    .journal-card p,
+    .journal-intro > p {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .journal-feature .normal {
+        margin-top: 6px;
+        padding: 10px 14px;
+        font-size: 11px;
+    }
+
+    .journal-card img {
+        height: 110px;
+        min-height: 110px;
+    }
+
+    .journal-card span {
+        margin: 10px 14px 0;
+    }
+
+    .journal-card h2,
+    .journal-card p {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    .journal-card small {
+        margin: 0 14px 12px;
+    }
+
+    .journal-intro > p {
+        display: none;
+    }
+
+    .journal-filters {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 2px;
+        scrollbar-width: none;
+    }
+
+    .journal-filters::-webkit-scrollbar {
+        display: none;
+    }
+
+    .journal-filters a {
+        flex: 0 0 auto;
+    }
+
+    .journal-feature p,
+    .journal-card p {
+        display: -webkit-box;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+    .payment-layout {
+        display: flex;
+        flex-direction: column;
+        padding-top: 16px;
+    }
+
+    .payment-form {
+        width: 100%;
+        gap: 14px;
+    }
+
+    .form-section {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .form-section button {
+        width: 100%;
+        min-height: 46px;
+    }
+
+    .payment-summary {
+        width: 100%;
+        gap: 10px;
+    }
+}
+
+#cart-items,
+.cart-summary,
+.payment-form,
+.payment-summary,
+.about-story-layout > *,
+.contact-layout > * {
+    min-width: 0;
+}
+
+.cart-summary small {
+    color: #6d8179;
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.cart-item h3 {
+    overflow-wrap: anywhere;
+}
+
+.checkout-action {
+    width: 100%;
+}
+
+@media (max-width: 799px) {
+    .cart-page {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .cart-item {
+        grid-template-columns: 80px minmax(0, 1fr) auto;
+    }
+
+    .payment-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .payment-summary {
+        width: 100%;
+    }
+
+    .about-story-layout,
+    .contact-layout {
+        width: 100%;
+    }
+}
+
+@media (max-width: 477px) {
+    .cart-item {
+        grid-template-columns: 56px minmax(0, 1fr);
+    }
+
+    .cart-item .quantity-control {
+        grid-column: 2;
+        justify-self: start;
+    }
+
+    .cart-summary .normal {
+        width: 100%;
+    }
+
+    .contact-form {
+        gap: 14px;
+        padding: 18px;
+    }
+
+    .contact-field {
+        gap: 5px;
+    }
+
+    .contact-form textarea {
+        min-height: 120px;
+    }
+
+    .contact-form button {
+        width: 100%;
+        min-height: 46px;
+    }
+}
+
+@media (max-width: 799px) {
+    .contact-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 477px) {
+    .product-detail {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .product-visual,
+    .product-copy {
+        width: 100%;
+    }
+
+    .journal-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .journal-feature {
+        grid-column: auto;
+    }
+
+    .about-story-layout {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    .about-story-image,
+    .about-story-image img {
+        min-height: 260px;
+        height: 260px;
+    }
+
+    .story-steps {
+        padding-bottom: 24px;
+    }
 }
