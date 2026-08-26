@@ -1148,6 +1148,98 @@ footer .copyright {
     margin-top: 22px;
 }
 
+.journal-intro {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: end;
+    gap: 32px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+.journal-intro span,
+.journal-cta > span {
+    color: #088178;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.journal-intro h2 {
+    max-width: 620px;
+    margin-top: 12px;
+    color: #041e42;
+    font-size: 29px;
+    line-height: 1.2;
+}
+
+.journal-intro > p {
+    max-width: 420px;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.journal-filters {
+    display: flex;
+    grid-column: span 2;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 16px;
+    border-top: 1px solid #dfe8e5;
+}
+
+.journal-filters a {
+    padding: 9px 13px;
+    border: 1px solid #cce7d0;
+    border-radius: 3px;
+    color: #465b52;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.journal-filters a:hover,
+.journal-filters a.active {
+    border-color: #088178;
+    background: #088178;
+    color: #fff;
+}
+
+.journal-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.journal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 30px rgba(4, 30, 66, 0.14);
+}
+
+.journal-card small {
+    display: block;
+    margin: 0 24px 24px;
+    color: #9cb5ae;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.journal-cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #e8f1ee;
+}
+
+.journal-cta h2 {
+    margin-right: auto;
+    color: #041e42;
+    font-size: 27px;
+}
+
+.journal-cta .normal {
+    white-space: nowrap;
+}
+
 .product-heading {
     background-image: linear-gradient(90deg, rgba(4, 15, 38, 0.92), rgba(4, 15, 38, 0.38)), url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1800&q=85");
 }
@@ -1612,6 +1704,33 @@ footer .copyright {
 }
 
 @media (max-width: 799px) {
+    .journal-intro {
+        grid-template-columns: 1fr;
+        align-items: start;
+    }
+
+    .journal-filters {
+        grid-column: auto;
+    }
+
+    .journal-cta {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 477px) {
+    .journal-intro h2 {
+        font-size: 25px;
+    }
+
+    .journal-cta h2 {
+        width: 100%;
+        margin-right: 0;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 799px) {
     .about-layout,
     .payment-layout,
     .faq-strip {
@@ -1864,4 +1983,83 @@ footer .copyright {
     .coordinates-intro {
         grid-column: auto;
     }
+}
+
+.journal-grid {
+    gap: 16px;
+}
+
+.journal-feature {
+    min-height: 300px;
+}
+
+.journal-feature img,
+.journal-card img {
+    min-height: 170px;
+}
+
+.journal-feature > div {
+    padding: 28px;
+}
+
+.journal-feature h2,
+.journal-card h2 {
+    font-size: 20px;
+}
+
+.journal-card {
+    box-shadow: 0 6px 16px rgba(4, 30, 66, 0.06);
+}
+
+.journal-card img {
+    height: 170px;
+}
+
+.journal-card span {
+    margin-top: 16px;
+}
+
+.journal-card small {
+    margin-bottom: 18px;
+}
+
+.journal-intro {
+    gap: 20px;
+    padding-bottom: 18px;
+}
+
+.journal-intro h2 {
+    font-size: 22px;
+}
+
+.journal-filters {
+    padding-top: 12px;
+}
+
+.journal-cta {
+    gap: 14px;
+}
+
+.journal-cta h2 {
+    font-size: 21px;
+}
+
+.journal-feature p,
+.journal-card p,
+.journal-intro > p {
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.journal-feature span,
+.journal-card span,
+.journal-card small,
+.journal-intro span,
+.journal-cta > span {
+    font-size: 10px;
+}
+
+.journal-filters a {
+    padding: 7px 10px;
+    font-size: 11px;
 }
