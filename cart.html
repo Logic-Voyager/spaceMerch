@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Enigma Space Merch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="index.html" class="logo"><img src="logo.png" alt="Enigma Space Merch home"></a>
+        <div><ul id="navbar"><li><a href="index.html">Home</a></li><li><a href="shop.html">Shop</a></li><li><a href="blog.html">Blog</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li id="lg-bag"><a class="active" href="cart.html" aria-label="Shopping bag"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li></ul></div>
+        <div id="mobile"><i id="bar" class="fa fa-bars" aria-hidden="true"></i><a href="cart.html" aria-label="Shopping bag"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></div>
+    </section>
+    <main>
+        <section class="page-heading cart-heading"><p>ENIGMA / CART</p><h1>Your mission kit.</h1><span class="heading-meta">CHECK YOUR PAYLOAD / PREPARE FOR LAUNCH</span></section>
+        <section class="cart-page section-p1">
+            <div id="cart-items"></div>
+            <div class="cart-summary"><span>Mission total</span><strong id="cart-total">$0.00</strong><small>Taxes and shipping calculated at checkout.</small><button id="clear-cart" class="normal" type="button">Clear Cart</button><a class="normal checkout-action" href="payment.html">Continue to payment</a></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

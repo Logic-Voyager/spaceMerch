@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | Enigma Space Merch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header"><a href="index.html" class="logo"><img src="logo.png" alt="Enigma Space Merch home"></a><div><ul id="navbar"><li><a href="index.html">Home</a></li><li><a href="shop.html">Shop</a></li><li><a href="blog.html">Blog</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li id="lg-bag"><a class="active" href="cart.html" aria-label="Shopping bag"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li></ul></div><div id="mobile"><i id="bar" class="fa fa-bars" aria-hidden="true"></i><a href="cart.html" aria-label="Shopping bag"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></div></section>
+    <main>
+        <section class="page-heading payment-heading"><p>ENIGMA / CHECKOUT</p><h1>Prepare your payload.</h1><span class="heading-meta">SECURE CHECKOUT / DEMO MODE / NO CHARGE</span></section>
+        <section class="payment-layout section-p1">
+            <form id="payment-form" class="payment-form">
+                <div class="form-section"><span>01 / DELIVERY SIGNAL</span><h2>Where should we send it?</h2><div class="form-two"><label>First name<input type="text" name="first-name" required></label><label>Last name<input type="text" name="last-name" required></label></div><label>Email<input type="email" name="email" required></label><label>Address<input type="text" name="address" required></label><div class="form-two"><label>City<input type="text" name="city" required></label><label>Postal code<input type="text" name="postal-code" required></label></div></div>
+                <div class="form-section"><span>02 / PAYMENT METHOD</span><h2>Secure the order.</h2><p class="demo-note"><i class="fa fa-info-circle" aria-hidden="true"></i> This is a portfolio demo. Do not enter real card details.</p><label>Cardholder name<input type="text" name="cardholder" required></label><label>Card number<input type="text" name="card-number" inputmode="numeric" placeholder="0000 0000 0000 0000" required></label><div class="form-two"><label>Expiry<input type="text" name="expiry" placeholder="MM / YY" required></label><label>CVV<input type="text" name="cvv" inputmode="numeric" placeholder="123" required></label></div><button class="normal" type="submit"><i class="fa fa-lock" aria-hidden="true"></i> Place demo order</button></div>
+            </form>
+            <aside class="payment-summary"><span>ORDER SUMMARY</span><strong id="payment-total">$0.00</strong><p>Free launch shipping</p><a href="cart.html">Review cart</a><div class="secure-line"><i class="fa fa-shield" aria-hidden="true"></i> Encrypted checkout experience</div></aside>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
